@@ -27,6 +27,9 @@
             android:name=".Ejercicio10"
             android:exported="false" />
         <activity
+            android:name=".Ejercicio12"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

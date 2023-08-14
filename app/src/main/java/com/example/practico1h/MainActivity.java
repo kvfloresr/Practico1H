@@ -33,4 +33,8 @@ public class MainActivity extends AppCompatActivity {
     public void goEjercicio10(View v) {
         startActivity(new Intent(MainActivity.this, Ejercicio10.class));
     }
+
+    public void goEjercicio12(View v) {
+        startActivity(new Intent(MainActivity.this, Ejercicio12.class));
+    }
 }
