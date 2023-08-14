@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Ejercicio6">
+
+    <EditText
+        android:id="@+id/editTextSongs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lista de canciones (separadas por coma)"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reproducir"
+        android:onClick="playSongs" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Estado de reproducción aquí" />
+
+</LinearLayout>
